@@ -1,9 +1,15 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+
+import { PagesComponent, LatestNewsComponent } from '../components'
+
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <PagesComponent />
+
+  <LatestNewsComponent />
 </template>
+
+<style scoped>
+
+</style>
