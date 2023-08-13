@@ -17,7 +17,7 @@
 
 <style scoped>
 article {
-    @apply max-w-sm mx-auto mt-6 h-[165px] rounded-lg bg-[url('/img/bg.png')] flex flex-col justify-end px-4 py-6 bg-cover bg-center
+    @apply mt-7 h-[165px] rounded-lg bg-[url('/img/bg.png')] flex flex-col justify-end px-4 py-6 bg-cover bg-center 
 }
 
 hgroup {

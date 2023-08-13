@@ -17,11 +17,11 @@ const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'
 
 <style scoped>
 nav {
-    @apply max-w-sm mx-auto mt-9
+    @apply mt-9
 }
 
 nav ul {
-    @apply flex justify-between items-center list-none space-x-8 overflow-x-scroll py-2
+    @apply flex justify-between items-center list-none space-x-6 overflow-x-scroll py-2
 }
 
 nav ul li {

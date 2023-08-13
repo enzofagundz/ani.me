@@ -32,7 +32,7 @@ import { RouterLink } from 'vue-router'
 <style scoped>
 
 nav {
-    @apply max-w-sm mx-auto
+    @apply max-w-sm mx-auto mt-6
 }
 
 nav ul {

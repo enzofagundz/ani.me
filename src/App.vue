@@ -7,10 +7,14 @@ import { NavbarComponent } from './components'
   <NavbarComponent />
 
     <!-- <RouterLink to="/">Home</RouterLink> -->
-    <RouterView />
+    <main>
+      <RouterView />
+    </main>
 
 </template>
 
 <style scoped>
-
+main {
+  @apply max-w-sm mx-auto;
+}
 </style>

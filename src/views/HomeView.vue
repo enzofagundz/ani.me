@@ -1,6 +1,6 @@
 <script setup>
 
-import { PagesComponent, LatestNewsComponent } from '../components'
+import { PagesComponent, LatestNewsComponent, LatestUpdatesComponent, RecentAnimeComponent } from '../components'
 
 </script>
 
@@ -8,6 +8,8 @@ import { PagesComponent, LatestNewsComponent } from '../components'
   <PagesComponent />
 
   <LatestNewsComponent />
+  <LatestUpdatesComponent />
+  <RecentAnimeComponent />
 </template>
 
 <style scoped>
